@@ -18,7 +18,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn import metrics
 
 
-application = Flask(__name__)
+app = Flask(__name__)
 
 
 
@@ -137,4 +137,5 @@ def showMachineList():
 
 
 if __name__ == "__main__":
-    application.run(host='0.0.0.0')
+    app.run(host='0.0.0.0')
+
